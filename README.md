@@ -25,3 +25,4 @@ conda env create -f environment.yml -n insa
 conda activate insa
 jupyter lab
 ```
+Alternativly, you run _install.sh_ which should be more robust. 
