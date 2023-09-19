@@ -1,5 +1,8 @@
 # INSA
-This repository provides a proof-of-concept implementation for the manuscript _Network Reconstruction via Sensitivity Analysis_.
+
+![alt text](overview.png "Overview")
+
+This repository provides a proof-of-concept implementation for the manuscript _[Network Reconstruction via Sensitivity Analysis](https://github.com/gerritgr/Insa/blob/b1e937da1811af52319ba0f3bc0e53862e891228/manuscript.pdf)_.
 
 ## Models
 All models have a continuous-time Markov chain (CTMC) semantic. Each node is an individual agent that changes its state depending on neighboring states after an exponentially distributed residence time. The parameters for each agent are sampled in the beginning.
