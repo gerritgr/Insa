@@ -13,4 +13,4 @@ conda install -y ipykernel
 python -m ipykernel install --user --name=insa --display-name="Python (insa)"
 conda install -y jupyterlab
 jupyter lab build
-jupyter lab
+#jupyter lab
