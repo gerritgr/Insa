@@ -1,5 +1,5 @@
 FROM jupyter/datascience-notebook
-MAINTAINER "GGX"
 
 RUN git clone https://github.com/gerritgr/insa
-RUN cd insa && bash install.sh
+RUN cd insa && mamba env create -f environment.yml -n insaenv
+RUN /opt/conda/envs/insaenv/bin/python -m ipykernel install --user --name=insaenv
