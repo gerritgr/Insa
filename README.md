@@ -19,7 +19,9 @@ Agents exist in one of two states: A or B. Their objective is either to maximize
 ### Majority Vote
 Agents occupy one of two states (A, B). They change their state only when the majority of neighboring agents occupy the state they do not occupy. The inertia of the agents is represented by agent-dependent random variables.
 
-## Run INSA Locally
+## Run INSA
+
+#### Locally
 
 You can run INSA locally using _main.ipynb_. First, install Anaconda, then create an environment with the Python dependencies (tested on _OS X_):
 
@@ -29,3 +31,11 @@ conda activate insa
 jupyter lab
 ```
 Alternativly, you run _install.sh_ which should be more robust. 
+
+#### Via Docker
+
+Install docker and then:
+```console
+docker run -p 8888:8888 gerritgr/insa:latest
+```
+You need to manually copy the URL to your browser, navigate to the notebook, and activate the _insaenv_ kernel (`Kernel -> Change Kernel...`). 
