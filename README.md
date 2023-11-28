@@ -5,7 +5,7 @@
 This repository provides a proof-of-concept implementation for the manuscript _[Network Reconstruction via Sensitivity Analysis](https://github.com/gerritgr/Insa/blob/b1e937da1811af52319ba0f3bc0e53862e891228/manuscript.pdf)_.
 
 ## Poster and Paper
-[<img src="downloadposter.jpg" width="300"/>](poster.pdf) [<img src="downloadpaper.jpg" width="300"/>](manuscript.pdf)
+[<img src="downloadposter.jpg" width="300"/>](poster.pdf) &nbsp; [<img src="downloadpaper.jpg" width="300"/>](manuscript.pdf)
 
 
 ## Models
